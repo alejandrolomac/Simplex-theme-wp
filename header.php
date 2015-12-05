@@ -11,13 +11,12 @@
 	<link href='https://fonts.googleapis.com/css?family=Bitter:400,700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
 	<?php wp_head(); ?>
 </head>
 <body>
 	<header>
 		<div id="logo">
-			<h1><a href="http://127.0.0.1/wor1/"><?php bloginfo('name'); ?></a></h1>
+			<h1><a href="/"><?php bloginfo('name'); ?></a></h1>
 			<span><?php bloginfo('description'); ?></span>
 		</div>
 		<nav>

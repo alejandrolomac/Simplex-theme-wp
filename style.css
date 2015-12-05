@@ -195,9 +195,7 @@ header nav ul li a:hover {
 
 #main #articles_list article .date {
 	color: #8A8A8A;
-	font-family: 'Josefin Slab', serif;
-	font-size: 1.1em;
-	font-weight: bold;
+	font-size: 1em;
 	margin-bottom: 15px;
 }
 
@@ -212,9 +210,7 @@ header nav ul li a:hover {
 
 #main #articles_list article .pie_post {
 	color: #8A8A8A;
-	font-size: 1.1em;
-	font-weight: bold;
-	font-family: 'Josefin Slab', serif;
+	font-size: 1em;
 }
 
 #pagination {
@@ -238,6 +234,46 @@ header nav ul li a:hover {
 	font-weight: none;
 	font-size: 1.3em;
 }
+
+/*index*/
+
+.index #articles_list_index {
+	/*display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	align-content: flex-start;*/
+	clear: both;
+	float: left;
+	width: 100%;
+	background: #222;
+}
+
+.index #articles_list_index article {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	display: inline-block;
+	vertical-align:top;
+	margin-right: 1.5%;
+	margin-bottom: 2%;
+	width: 32%;
+	border: 1px solid red;
+	-webkit-transition: .3s linear;
+	-o-transition: .3s linear;
+	transition: .3s linear;
+}
+
+.index #articles_list_index article:nth-child(3n+0) {
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.index aside {
+	display:none;
+}
+
+/*fin index*/
+
 /*---Aside---*/
 
 #main aside {

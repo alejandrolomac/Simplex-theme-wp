@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
-<section id="main" class="index">
-	<section id="articles_list_index">
+<section id="main">
+	<section id="articles_list">
 		<?php query_posts("paged=$paged"); ?>
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 			<article>
@@ -14,8 +14,10 @@
 				<div class="date">
 					<a href=""><?php the_author_posts_link(); ?></a>: <?php the_time('F j, Y') ?> en <span><?php the_category(' • ') ;?></span>
 				</div>
+				<div class="extract"><?php the_excerpt();?></div>
 				<div class="pie_post">
 					<span><?php the_tags( 'Etiquetas: ', ' • ', '<br />' ); ?></span>
+					<p><?php comments_number( '0 Comentarios', 'Un Comentario', '% Comentarios' ); ?></p>
 				</div>
 			</article>
 		<?php endwhile; else: ?>

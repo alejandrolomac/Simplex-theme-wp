@@ -1,7 +1,7 @@
 /*
-Theme Name: Simplex
-Theme URL: https://github.com/Reykrad/Simplex-theme-wp
-Description: Tema Wordpress
+Theme Name: Blue Dragon
+Theme URL: https://github.com/Reykrad/BlueDragon-theme-wp
+Description: Tema simple para Wordpress
 Version: 1
 Author: Reykrad
 Author URL: https://twitter.com/reykrad
@@ -59,7 +59,7 @@ a:hover {
 /*---Header---*/
 
 header {
-	font-family: 'Bitter', serif;
+	font-family: 'Bitter', serif, Helvetica, Arial;
 	margin-bottom:40px;
 	margin-top:20px;
 	overflow:hidden;
@@ -118,12 +118,11 @@ header nav ul li {
 }
 
 header nav ul li a {
-	border: 2px solid #FF5500;
-	border-radius: 99px;
 	color: #D6D6D6;
 	display: inline-block;
 	font-size: 1.2em;
 	padding: 7px;
+	border-radius: 3px;
 	text-shadow: 2px 2px 2px #000;
 	-webkit-transition: .3s linear;
 	-o-transition: .3s linear;
@@ -131,7 +130,6 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-	border: 2px solid #FF8000;
 	color: #008CFF;
 }
 
@@ -171,7 +169,7 @@ header nav ul li a:hover {
 }
 
 #main #articles_list article h2 {
-	font-family: 'Courgette', cursive;
+	font-family: 'Courgette', cursive, Helvetica, Arial;
 	font-size: 1.9em;
 	font-weight: 500;
 }
@@ -234,46 +232,6 @@ header nav ul li a:hover {
 	font-weight: none;
 	font-size: 1.3em;
 }
-
-/*index*/
-
-.index #articles_list_index {
-	/*display: flex;
-	flex-flow: row wrap;
-	align-items: flex-start;
-	align-content: flex-start;*/
-	clear: both;
-	float: left;
-	width: 100%;
-	background: #222;
-}
-
-.index #articles_list_index article {
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-	display: inline-block;
-	vertical-align:top;
-	margin-right: 1.5%;
-	margin-bottom: 2%;
-	width: 32%;
-	border: 1px solid red;
-	-webkit-transition: .3s linear;
-	-o-transition: .3s linear;
-	transition: .3s linear;
-}
-
-.index #articles_list_index article:nth-child(3n+0) {
-	margin-right: 0px;
-	margin-left: 0px;
-}
-
-.index aside {
-	display:none;
-}
-
-/*fin index*/
-
 /*---Aside---*/
 
 #main aside {
@@ -356,7 +314,7 @@ header nav ul li a:hover {
 	-o-transition: .4s linear;
 	transition: .4s linear;
 	padding: 2px 5px;
-	border: 2px solid #FF8000;
+	background: #334;
 	display: inline-block;
 	margin: 2px 0;
 	border-radius: 99px;
@@ -367,7 +325,7 @@ header nav ul li a:hover {
 	-ms-transform: rotate(7deg);
 	-o-transform: rotate(7deg);
 	transform: rotate(7deg);
-	border: 2px solid #622574;
+	background: #445;
 }
 
 .widget ul li a{

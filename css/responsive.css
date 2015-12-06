@@ -57,6 +57,15 @@
 		float: left;
 	}
 
+	header nav ul li a {
+		background: #222;
+		border-bottom: 4px solid #000;
+	}
+
+	header nav ul li a:hover {
+		background: #2B2B2B;
+	}
+
 	#main #articles_list {
 		width: 100%;
 	}
@@ -88,8 +97,10 @@
 	}
 }
 
+
+
 /*---Medida para Smartphones---*/
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 450px) {
 	#main #articles_list article .thumb {
 		width: 100%;
 		float: left;
@@ -138,5 +149,12 @@
 		width: 98%;
 		margin-top: 20px;
 		padding: 1%;
+	}
+
+	header #logo h1 {
+		font-size: 2em;
+		font-weight: 100;
+		margin: 0px;
+		text-shadow: 1px 1px 2px #000;
 	}
 }

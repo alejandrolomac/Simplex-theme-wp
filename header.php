@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
+	<meta name="description" content="<?php bloginfo('description'); ?>" />
 	<title><?php bloginfo('name');wp_title( '|', true, 'left' ); ?></title>
 	<meta name="viewport" content="width=device-width">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url')?>/css/normalize.css">
@@ -17,7 +18,6 @@
 	<header>
 		<div id="logo">
 			<h1><a href="/"><?php bloginfo('name'); ?></a></h1>
-			<span><?php bloginfo('description'); ?></span>
 		</div>
 		<nav>
 			<?php 

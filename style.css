@@ -64,6 +64,7 @@ header {
 	margin-top:20px;
 	overflow:hidden;
 	width:85%;
+	border-bottom: 2px dashed #334;
 }
 
 header #logo {
@@ -101,7 +102,7 @@ header #logo span {
 
 header nav {
 	float: right;
-	margin-top: 15px;
+	margin-top: 10px;
 	padding: 10px 0px;
 	width: 60%;
 }
